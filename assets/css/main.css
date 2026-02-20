@@ -854,3 +854,53 @@
 		body.is-ie #wrapper {
 			height: 100%;
 		}
+
+
+
+
+
+
+		/* --- Mobile polish for Identity --- */
+		/* --- Added by Abdul Issa--- */
+@media screen and (max-width: 736px) {
+
+  /* Give the page a bit more top/bottom breathing room */
+  #wrapper {
+    padding: 1.25rem 1rem;
+  }
+
+  /* Make the main card less cramped */
+  #main {
+    width: 92%;
+    max-width: 420px;
+  }
+
+  /* Shrink the avatar so it doesn't dominate the screen */
+  .avatar img {
+    width: 8.5em;   /* try 7.5em if you want even smaller */
+    height: auto;
+  }
+
+  /* Reduce the thick white border ring */
+  .avatar {
+    border-width: 0.5em;  /* try 0.4em if still chunky */
+  }
+
+  /* Tighten vertical spacing */
+  #header h1 {
+    margin-top: 0.5em;
+  }
+
+  #header p {
+    font-size: 0.9em;
+    line-height: 1.6;
+    margin: 0.75em 0 0 0;
+  }
+
+  /* Icons slightly smaller and closer */
+  ul.icons li a {
+    width: 2.5em;
+    height: 2.5em;
+    line-height: 2.5em;
+  }
+}
